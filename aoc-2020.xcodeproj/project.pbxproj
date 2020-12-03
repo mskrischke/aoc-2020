@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		835EAD4B257668390058E2FA /* Day1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835EAD4A257668390058E2FA /* Day1Tests.swift */; };
+		835EAD50257668C30058E2FA /* day1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 835EAD4F257668C30058E2FA /* day1.txt */; };
+		835EAE932577D87F0058E2FA /* Day2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835EAE922577D87F0058E2FA /* Day2Tests.swift */; };
+		835EAE982577D88F0058E2FA /* day2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 835EAE972577D88F0058E2FA /* day2.txt */; };
+		837E0B9825792015002B5E54 /* Day3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E0B9725792015002B5E54 /* Day3Tests.swift */; };
+		837E0B9D2579202C002B5E54 /* day3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 837E0B9C2579202C002B5E54 /* day3.txt */; };
 		83BBA52F257667CF00E11EC3 /* aoc_2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBA52E257667CF00E11EC3 /* aoc_2020App.swift */; };
 		83BBA531257667CF00E11EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBA530257667CF00E11EC3 /* ContentView.swift */; };
 		83BBA533257667D100E11EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BBA532257667D100E11EC3 /* Assets.xcassets */; };
 		83BBA536257667D100E11EC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BBA535257667D100E11EC3 /* Preview Assets.xcassets */; };
-		83BBA542257667D200E11EC3 /* aoc_2020Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBA541257667D200E11EC3 /* aoc_2020Tests.swift */; };
-		83BBA54D257667D200E11EC3 /* aoc_2020UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBA54C257667D200E11EC3 /* aoc_2020UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,16 +27,15 @@
 			remoteGlobalIDString = 83BBA52A257667CF00E11EC3;
 			remoteInfo = "aoc-2020";
 		};
-		83BBA549257667D200E11EC3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83BBA523257667CF00E11EC3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83BBA52A257667CF00E11EC3;
-			remoteInfo = "aoc-2020";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		835EAD4A257668390058E2FA /* Day1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day1Tests.swift; sourceTree = "<group>"; };
+		835EAD4F257668C30058E2FA /* day1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day1.txt; sourceTree = "<group>"; };
+		835EAE922577D87F0058E2FA /* Day2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day2Tests.swift; sourceTree = "<group>"; };
+		835EAE972577D88F0058E2FA /* day2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day2.txt; sourceTree = "<group>"; };
+		837E0B9725792015002B5E54 /* Day3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3Tests.swift; sourceTree = "<group>"; };
+		837E0B9C2579202C002B5E54 /* day3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day3.txt; sourceTree = "<group>"; };
 		83BBA52B257667CF00E11EC3 /* aoc-2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aoc-2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BBA52E257667CF00E11EC3 /* aoc_2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc_2020App.swift; sourceTree = "<group>"; };
 		83BBA530257667CF00E11EC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,11 +44,7 @@
 		83BBA537257667D100E11EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83BBA538257667D100E11EC3 /* aoc_2020.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = aoc_2020.entitlements; sourceTree = "<group>"; };
 		83BBA53D257667D200E11EC3 /* aoc-2020Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aoc-2020Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83BBA541257667D200E11EC3 /* aoc_2020Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc_2020Tests.swift; sourceTree = "<group>"; };
 		83BBA543257667D200E11EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83BBA548257667D200E11EC3 /* aoc-2020UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aoc-2020UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83BBA54C257667D200E11EC3 /* aoc_2020UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc_2020UITests.swift; sourceTree = "<group>"; };
-		83BBA54E257667D200E11EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,13 +62,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83BBA545257667D200E11EC3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,7 +70,6 @@
 			children = (
 				83BBA52D257667CF00E11EC3 /* aoc-2020 */,
 				83BBA540257667D200E11EC3 /* aoc-2020Tests */,
-				83BBA54B257667D200E11EC3 /* aoc-2020UITests */,
 				83BBA52C257667CF00E11EC3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,7 +79,6 @@
 			children = (
 				83BBA52B257667CF00E11EC3 /* aoc-2020.app */,
 				83BBA53D257667D200E11EC3 /* aoc-2020Tests.xctest */,
-				83BBA548257667D200E11EC3 /* aoc-2020UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,19 +107,15 @@
 		83BBA540257667D200E11EC3 /* aoc-2020Tests */ = {
 			isa = PBXGroup;
 			children = (
-				83BBA541257667D200E11EC3 /* aoc_2020Tests.swift */,
 				83BBA543257667D200E11EC3 /* Info.plist */,
+				835EAD4A257668390058E2FA /* Day1Tests.swift */,
+				835EAD4F257668C30058E2FA /* day1.txt */,
+				835EAE922577D87F0058E2FA /* Day2Tests.swift */,
+				835EAE972577D88F0058E2FA /* day2.txt */,
+				837E0B9725792015002B5E54 /* Day3Tests.swift */,
+				837E0B9C2579202C002B5E54 /* day3.txt */,
 			);
 			path = "aoc-2020Tests";
-			sourceTree = "<group>";
-		};
-		83BBA54B257667D200E11EC3 /* aoc-2020UITests */ = {
-			isa = PBXGroup;
-			children = (
-				83BBA54C257667D200E11EC3 /* aoc_2020UITests.swift */,
-				83BBA54E257667D200E11EC3 /* Info.plist */,
-			);
-			path = "aoc-2020UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,24 +156,6 @@
 			productReference = 83BBA53D257667D200E11EC3 /* aoc-2020Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		83BBA547257667D200E11EC3 /* aoc-2020UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 83BBA557257667D200E11EC3 /* Build configuration list for PBXNativeTarget "aoc-2020UITests" */;
-			buildPhases = (
-				83BBA544257667D200E11EC3 /* Sources */,
-				83BBA545257667D200E11EC3 /* Frameworks */,
-				83BBA546257667D200E11EC3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				83BBA54A257667D200E11EC3 /* PBXTargetDependency */,
-			);
-			name = "aoc-2020UITests";
-			productName = "aoc-2020UITests";
-			productReference = 83BBA548257667D200E11EC3 /* aoc-2020UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,10 +169,6 @@
 						CreatedOnToolsVersion = 12.2;
 					};
 					83BBA53C257667D200E11EC3 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 83BBA52A257667CF00E11EC3;
-					};
-					83BBA547257667D200E11EC3 = {
 						CreatedOnToolsVersion = 12.2;
 						TestTargetID = 83BBA52A257667CF00E11EC3;
 					};
@@ -225,7 +189,6 @@
 			targets = (
 				83BBA52A257667CF00E11EC3 /* aoc-2020 */,
 				83BBA53C257667D200E11EC3 /* aoc-2020Tests */,
-				83BBA547257667D200E11EC3 /* aoc-2020UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,13 +207,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83BBA546257667D200E11EC3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				835EAE982577D88F0058E2FA /* day2.txt in Resources */,
+				837E0B9D2579202C002B5E54 /* day3.txt in Resources */,
+				835EAD50257668C30058E2FA /* day1.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BBA542257667D200E11EC3 /* aoc_2020Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83BBA544257667D200E11EC3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83BBA54D257667D200E11EC3 /* aoc_2020UITests.swift in Sources */,
+				835EAD4B257668390058E2FA /* Day1Tests.swift in Sources */,
+				837E0B9825792015002B5E54 /* Day3Tests.swift in Sources */,
+				835EAE932577D87F0058E2FA /* Day2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,11 +242,6 @@
 			isa = PBXTargetDependency;
 			target = 83BBA52A257667CF00E11EC3 /* aoc-2020 */;
 			targetProxy = 83BBA53E257667D200E11EC3 /* PBXContainerItemProxy */;
-		};
-		83BBA54A257667D200E11EC3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 83BBA52A257667CF00E11EC3 /* aoc-2020 */;
-			targetProxy = 83BBA549257667D200E11EC3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -505,46 +453,6 @@
 			};
 			name = Release;
 		};
-		83BBA558257667D200E11EC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 796R2UQM8W;
-				INFOPLIST_FILE = "aoc-2020UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "me.krischke.aoc-2020UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "aoc-2020";
-			};
-			name = Debug;
-		};
-		83BBA559257667D200E11EC3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 796R2UQM8W;
-				INFOPLIST_FILE = "aoc-2020UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "me.krischke.aoc-2020UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "aoc-2020";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -571,15 +479,6 @@
 			buildConfigurations = (
 				83BBA555257667D200E11EC3 /* Debug */,
 				83BBA556257667D200E11EC3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		83BBA557257667D200E11EC3 /* Build configuration list for PBXNativeTarget "aoc-2020UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83BBA558257667D200E11EC3 /* Debug */,
-				83BBA559257667D200E11EC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
