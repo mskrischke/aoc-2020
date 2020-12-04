@@ -43,14 +43,6 @@ class Day1Tests: XCTestCase {
     }
 
     private func loadData() -> [Int] {
-        do {
-            let url = Bundle(for: Self.self).url(forResource: "day1", withExtension: "txt")!
-            let data = try Data(contentsOf: url)
-            let s = String(data: data, encoding: .utf8)?.split(separator: "\n").map { String($0) }.compactMap { Int($0) } ?? []
-            return s
-        } catch {
-            XCTFail(error.localizedDescription)
-            return []
-        }
+        return loadFile(name: "day1.txt").split(separator: "\n").map { String($0) }.compactMap { Int($0) }
     }
 }

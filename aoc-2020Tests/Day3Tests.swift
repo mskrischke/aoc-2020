@@ -88,19 +88,10 @@ class Day3Tests: XCTestCase {
     }
 
     private func loadData() -> Map {
-        do {
-            let url = Bundle(for: Self.self).url(forResource: "day3", withExtension: "txt")!
-            let data = try Data(contentsOf: url)
-            let lines = String(data: data, encoding: .utf8)?.split(separator: "\n").map { String($0) } ?? []
-
-            let entries = lines.map { (line: String) -> [Map.Surface] in
-                return line.map { Map.Surface(rawValue: $0)! }
-            }
-            return Map(input: entries)
-        } catch {
-            XCTFail(error.localizedDescription)
-            preconditionFailure()
+        let lines = loadFile(name: "day3.txt").split(separator: "\n").map { String($0) }
+        let entries = lines.map { (line: String) -> [Map.Surface] in
+            return line.map { Map.Surface(rawValue: $0)! }
         }
+        return Map(input: entries)
     }
-
 }

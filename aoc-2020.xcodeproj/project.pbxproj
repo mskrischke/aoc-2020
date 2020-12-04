@@ -13,6 +13,9 @@
 		835EAE982577D88F0058E2FA /* day2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 835EAE972577D88F0058E2FA /* day2.txt */; };
 		837E0B9825792015002B5E54 /* Day3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E0B9725792015002B5E54 /* Day3Tests.swift */; };
 		837E0B9D2579202C002B5E54 /* day3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 837E0B9C2579202C002B5E54 /* day3.txt */; };
+		837E0D77257A1D5F002B5E54 /* Day4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E0D76257A1D5F002B5E54 /* Day4Tests.swift */; };
+		837E0D7B257A1D70002B5E54 /* day4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 837E0D7A257A1D70002B5E54 /* day4.txt */; };
+		837E0DFE257A9354002B5E54 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E0DFD257A9354002B5E54 /* Utilities.swift */; };
 		83BBA52F257667CF00E11EC3 /* aoc_2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBA52E257667CF00E11EC3 /* aoc_2020App.swift */; };
 		83BBA531257667CF00E11EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBA530257667CF00E11EC3 /* ContentView.swift */; };
 		83BBA533257667D100E11EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BBA532257667D100E11EC3 /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 		835EAE972577D88F0058E2FA /* day2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day2.txt; sourceTree = "<group>"; };
 		837E0B9725792015002B5E54 /* Day3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day3Tests.swift; sourceTree = "<group>"; };
 		837E0B9C2579202C002B5E54 /* day3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day3.txt; sourceTree = "<group>"; };
+		837E0D76257A1D5F002B5E54 /* Day4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day4Tests.swift; sourceTree = "<group>"; };
+		837E0D7A257A1D70002B5E54 /* day4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day4.txt; sourceTree = "<group>"; };
+		837E0DFD257A9354002B5E54 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		83BBA52B257667CF00E11EC3 /* aoc-2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aoc-2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BBA52E257667CF00E11EC3 /* aoc_2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc_2020App.swift; sourceTree = "<group>"; };
 		83BBA530257667CF00E11EC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +120,9 @@
 				835EAE972577D88F0058E2FA /* day2.txt */,
 				837E0B9725792015002B5E54 /* Day3Tests.swift */,
 				837E0B9C2579202C002B5E54 /* day3.txt */,
+				837E0D76257A1D5F002B5E54 /* Day4Tests.swift */,
+				837E0D7A257A1D70002B5E54 /* day4.txt */,
+				837E0DFD257A9354002B5E54 /* Utilities.swift */,
 			);
 			path = "aoc-2020Tests";
 			sourceTree = "<group>";
@@ -170,7 +179,6 @@
 					};
 					83BBA53C257667D200E11EC3 = {
 						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 83BBA52A257667CF00E11EC3;
 					};
 				};
 			};
@@ -207,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837E0D7B257A1D70002B5E54 /* day4.txt in Resources */,
 				835EAE982577D88F0058E2FA /* day2.txt in Resources */,
 				837E0B9D2579202C002B5E54 /* day3.txt in Resources */,
 				835EAD50257668C30058E2FA /* day1.txt in Resources */,
@@ -232,6 +241,8 @@
 				835EAD4B257668390058E2FA /* Day1Tests.swift in Sources */,
 				837E0B9825792015002B5E54 /* Day3Tests.swift in Sources */,
 				835EAE932577D87F0058E2FA /* Day2Tests.swift in Sources */,
+				837E0DFE257A9354002B5E54 /* Utilities.swift in Sources */,
+				837E0D77257A1D5F002B5E54 /* Day4Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +424,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 796R2UQM8W;
@@ -427,7 +437,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "me.krischke.aoc-2020Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aoc-2020.app/Contents/MacOS/aoc-2020";
 			};
 			name = Debug;
 		};
@@ -435,7 +444,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 796R2UQM8W;
@@ -449,7 +457,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "me.krischke.aoc-2020Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aoc-2020.app/Contents/MacOS/aoc-2020";
 			};
 			name = Release;
 		};

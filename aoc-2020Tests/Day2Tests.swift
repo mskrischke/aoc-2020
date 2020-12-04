@@ -38,29 +38,21 @@ class Day2Tests: XCTestCase {
     }
 
     private func loadData() -> [PasswordEntry] {
-        do {
-            /// 16-19 q: qqqqqqqqfqqfqqqzqqcq
-            let url = Bundle(for: Self.self).url(forResource: "day2", withExtension: "txt")!
-            let data = try Data(contentsOf: url)
-            let lines = String(data: data, encoding: .utf8)?.split(separator: "\n").map { String($0) } ?? []
+        /// 16-19 q: qqqqqqqqfqqfqqqzqqcq
+        let lines = loadFile(name: "day2.txt").split(separator: "\n").map { String($0) }
 
-            let entries = lines.map { (line: String) -> PasswordEntry in
-                let parts = line.split(separator: " ")
+        let entries = lines.map { (line: String) -> PasswordEntry in
+            let parts = line.split(separator: " ")
 
-                let rangeParts = parts[0].split(separator: "-")
-                let range = ClosedRange<Int>(uncheckedBounds: (Int(rangeParts[0])!, Int(rangeParts[1])!))
-                let char = Character(String(parts[1].split(separator: ":")[0]))
+            let rangeParts = parts[0].split(separator: "-")
+            let range = ClosedRange<Int>(uncheckedBounds: (Int(rangeParts[0])!, Int(rangeParts[1])!))
+            let char = Character(String(parts[1].split(separator: ":")[0]))
 
-                let password = String(parts[2])
+            let password = String(parts[2])
 
-                return PasswordEntry(neededRange: range, necessaryCharacter: char, password: password)
-            }
-
-            return entries
-        } catch {
-            XCTFail(error.localizedDescription)
-            return []
+            return PasswordEntry(neededRange: range, necessaryCharacter: char, password: password)
         }
-    }
 
+        return entries
+    }
 }
