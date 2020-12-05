@@ -27,43 +27,10 @@ class Day5Tests: XCTestCase {
     }
 
     private func ticketId(for input: String) -> Int {
-        let row = extractRow(from: input.prefix(7))
-        let seat = extractSeat(from: input.suffix(3))
-        return row * 8 + seat
-    }
-
-    private func extractRow(from input: String.SubSequence) -> Int {
-        var row = ClosedRange(uncheckedBounds: (0, 127))
-
-        for c in input {
-            let length = row.count / 2
-            switch c {
-            case "F":
-                row = ClosedRange(uncheckedBounds: (row.lowerBound, row.upperBound - length))
-            case "B":
-                row = ClosedRange(uncheckedBounds: (row.lowerBound + length, row.upperBound))
-            default:
-                preconditionFailure()
-            }
-        }
-        return row.lowerBound
-    }
-
-    private func extractSeat(from input: String.SubSequence) -> Int {
-        var row = ClosedRange(uncheckedBounds: (0, 7))
-
-        for c in input {
-            let length = row.count / 2
-            switch c {
-            case "L":
-                row = ClosedRange(uncheckedBounds: (row.lowerBound, row.upperBound - length))
-            case "R":
-                row = ClosedRange(uncheckedBounds: (row.lowerBound + length, row.upperBound))
-            default:
-                preconditionFailure()
-            }
-        }
-        return row.lowerBound
+        return Int(input.replacingOccurrences(of: "F", with: "0")
+            .replacingOccurrences(of: "B", with: "1")
+            .replacingOccurrences(of: "L", with: "0")
+            .replacingOccurrences(of: "R", with: "1"), radix: 2)!
     }
 
     private func loadData() -> [String] {
