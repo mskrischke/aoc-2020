@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,9 @@
 		837E0E18257E0E62002B5E54 /* day7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 837E0E17257E0E62002B5E54 /* day7.txt */; };
 		837E100D257F6025002B5E54 /* Day8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E100C257F6025002B5E54 /* Day8Tests.swift */; };
 		837E1011257F603B002B5E54 /* day8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 837E1010257F603B002B5E54 /* day8.txt */; };
+		837E101E2580B767002B5E54 /* Day9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E101D2580B766002B5E54 /* Day9Tests.swift */; };
+		837E10222580B775002B5E54 /* day9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 837E10212580B775002B5E54 /* day9.txt */; };
+		837E10272580B9B4002B5E54 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 837E10262580B9B4002B5E54 /* Algorithms */; };
 		83BBA52F257667CF00E11EC3 /* aoc_2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBA52E257667CF00E11EC3 /* aoc_2020App.swift */; };
 		83BBA531257667CF00E11EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBA530257667CF00E11EC3 /* ContentView.swift */; };
 		83BBA533257667D100E11EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BBA532257667D100E11EC3 /* Assets.xcassets */; };
@@ -58,6 +61,8 @@
 		837E0E17257E0E62002B5E54 /* day7.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day7.txt; sourceTree = "<group>"; };
 		837E100C257F6025002B5E54 /* Day8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day8Tests.swift; sourceTree = "<group>"; };
 		837E1010257F603B002B5E54 /* day8.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day8.txt; sourceTree = "<group>"; };
+		837E101D2580B766002B5E54 /* Day9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day9Tests.swift; sourceTree = "<group>"; };
+		837E10212580B775002B5E54 /* day9.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day9.txt; sourceTree = "<group>"; };
 		83BBA52B257667CF00E11EC3 /* aoc-2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aoc-2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BBA52E257667CF00E11EC3 /* aoc_2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc_2020App.swift; sourceTree = "<group>"; };
 		83BBA530257667CF00E11EC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837E10272580B9B4002B5E54 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +153,8 @@
 				837E0E17257E0E62002B5E54 /* day7.txt */,
 				837E100C257F6025002B5E54 /* Day8Tests.swift */,
 				837E1010257F603B002B5E54 /* day8.txt */,
+				837E101D2580B766002B5E54 /* Day9Tests.swift */,
+				837E10212580B775002B5E54 /* day9.txt */,
 			);
 			path = "aoc-2020Tests";
 			sourceTree = "<group>";
@@ -185,6 +193,9 @@
 				83BBA53F257667D200E11EC3 /* PBXTargetDependency */,
 			);
 			name = "aoc-2020Tests";
+			packageProductDependencies = (
+				837E10262580B9B4002B5E54 /* Algorithms */,
+			);
 			productName = "aoc-2020Tests";
 			productReference = 83BBA53D257667D200E11EC3 /* aoc-2020Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -215,6 +226,9 @@
 				Base,
 			);
 			mainGroup = 83BBA522257667CF00E11EC3;
+			packageReferences = (
+				837E10252580B9B4002B5E54 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = 83BBA52C257667CF00E11EC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -246,6 +260,7 @@
 				837E1011257F603B002B5E54 /* day8.txt in Resources */,
 				835EAD50257668C30058E2FA /* day1.txt in Resources */,
 				837E0E0E257B6C86002B5E54 /* day6.txt in Resources */,
+				837E10222580B775002B5E54 /* day9.txt in Resources */,
 				837E0E06257B5E1E002B5E54 /* day5.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +285,7 @@
 				835EAD4B257668390058E2FA /* Day1Tests.swift in Sources */,
 				837E0E14257E0E53002B5E54 /* Day7Tests.swift in Sources */,
 				837E100D257F6025002B5E54 /* Day8Tests.swift in Sources */,
+				837E101E2580B767002B5E54 /* Day9Tests.swift in Sources */,
 				837E0B9825792015002B5E54 /* Day3Tests.swift in Sources */,
 				835EAE932577D87F0058E2FA /* Day2Tests.swift in Sources */,
 				837E0DFE257A9354002B5E54 /* Utilities.swift in Sources */,
@@ -523,6 +539,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		837E10252580B9B4002B5E54 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		837E10262580B9B4002B5E54 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837E10252580B9B4002B5E54 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 83BBA523257667CF00E11EC3 /* Project object */;
 }
