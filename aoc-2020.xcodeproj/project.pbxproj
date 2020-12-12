@@ -35,6 +35,8 @@
 		83BBA531257667CF00E11EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBA530257667CF00E11EC3 /* ContentView.swift */; };
 		83BBA533257667D100E11EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BBA532257667D100E11EC3 /* Assets.xcassets */; };
 		83BBA536257667D100E11EC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BBA535257667D100E11EC3 /* Preview Assets.xcassets */; };
+		83DEFEFA2584A9FB00045213 /* Day12Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEFEF92584A9FB00045213 /* Day12Tests.swift */; };
+		83DEFEFE2584AA0800045213 /* day12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 83DEFEFD2584AA0800045213 /* day12.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		83BBA538257667D100E11EC3 /* aoc_2020.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = aoc_2020.entitlements; sourceTree = "<group>"; };
 		83BBA53D257667D200E11EC3 /* aoc-2020Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aoc-2020Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BBA543257667D200E11EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83DEFEF92584A9FB00045213 /* Day12Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day12Tests.swift; sourceTree = "<group>"; };
+		83DEFEFD2584AA0800045213 /* day12.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day12.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 				837E10ED25822A29002B5E54 /* day10.txt */,
 				837E113725836439002B5E54 /* Day11Tests.swift */,
 				837E113B25836448002B5E54 /* day11.txt */,
+				83DEFEF92584A9FB00045213 /* Day12Tests.swift */,
+				83DEFEFD2584AA0800045213 /* day12.txt */,
 			);
 			path = "aoc-2020Tests";
 			sourceTree = "<group>";
@@ -269,6 +275,7 @@
 				837E0D7B257A1D70002B5E54 /* day4.txt in Resources */,
 				835EAE982577D88F0058E2FA /* day2.txt in Resources */,
 				837E113C25836448002B5E54 /* day11.txt in Resources */,
+				83DEFEFE2584AA0800045213 /* day12.txt in Resources */,
 				837E0B9D2579202C002B5E54 /* day3.txt in Resources */,
 				837E1011257F603B002B5E54 /* day8.txt in Resources */,
 				835EAD50257668C30058E2FA /* day1.txt in Resources */,
@@ -305,6 +312,7 @@
 				837E0B9825792015002B5E54 /* Day3Tests.swift in Sources */,
 				835EAE932577D87F0058E2FA /* Day2Tests.swift in Sources */,
 				837E0DFE257A9354002B5E54 /* Utilities.swift in Sources */,
+				83DEFEFA2584A9FB00045213 /* Day12Tests.swift in Sources */,
 				837E0D77257A1D5F002B5E54 /* Day4Tests.swift in Sources */,
 				837E0E0A257B6C75002B5E54 /* Day6Tests.swift in Sources */,
 			);
