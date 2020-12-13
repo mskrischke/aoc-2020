@@ -19,30 +19,30 @@ class Day13Tests: XCTestCase {
     }
     
     func testDay13_2() throws {
-//        let tests = ["7,13,x,x,59,x,31,19": 1068781, "17,x,13,19": 3417, "67,7,59,61": 754018, "67,x,7,59,61": 779210, "67,7,x,59,61": 1261476]
-//        for entry in tests {
-//            XCTAssertEqual(find(schedule: entry.key), entry.value)
-//        }
+        let tests = ["7,13,x,x,59,x,31,19": 1068781, "17,x,13,19": 3417, "67,7,59,61": 754018, "67,x,7,59,61": 779210, "67,7,x,59,61": 1261476]
+        for entry in tests {
+            XCTAssertEqual(find(schedule: entry.key), entry.value)
+        }
+
         XCTAssertEqual(find(schedule: schedule), 552612234243498)
     }
     
     private func find(schedule: String) -> Int {
-        let busIds = schedule.split(separator: ",").enumerated().compactMap { Int($0.element) != nil ? (Int($0.element)!, $0.offset) : nil }
+        let busIds = schedule.split(separator: ",").enumerated().compactMap { Int($0.element) != nil ? (id: Int($0.element)!, offset: $0.offset) : nil }
         var factors = busIds
         var number = 0
         var stepSize = 1
         
         while true {
-            let b = factors.first!
-            if (number + b.1) % b.0 == 0 {
+            let bus = factors.first!
+            if (number + bus.offset) % bus.id == 0 {
                 factors.removeFirst()
-                stepSize *= b.0
+                stepSize *= bus.id
             }
             
-            if busIds.allSatisfy({(number + $0.1) % $0.0 == 0}) {
+            if busIds.allSatisfy({(number + $0.offset) % $0.id == 0}) {
                 return number
             }
-            
             number += stepSize
         }
     }
