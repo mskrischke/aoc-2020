@@ -30,4 +30,8 @@ extension String {
     func matches(_ pattern: String) -> Bool {
         return !match(pattern).isEmpty
     }
+    
+    func padLeft(toSize: Int, with padding: String) -> String {
+        return String(repeating: padding, count: toSize - self.count) + self
+    }
 }
