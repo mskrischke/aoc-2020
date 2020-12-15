@@ -40,6 +40,7 @@
 		83DEFF022585F7DC00045213 /* Day13Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEFF012585F7DC00045213 /* Day13Tests.swift */; };
 		83DEFF062587490300045213 /* Day14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEFF052587490300045213 /* Day14Tests.swift */; };
 		83DEFF0A2587491000045213 /* day14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 83DEFF092587491000045213 /* day14.txt */; };
+		83DEFF7025889D0900045213 /* Day15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEFF6F25889D0900045213 /* Day15Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		83DEFF012585F7DC00045213 /* Day13Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day13Tests.swift; sourceTree = "<group>"; };
 		83DEFF052587490300045213 /* Day14Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day14Tests.swift; sourceTree = "<group>"; };
 		83DEFF092587491000045213 /* day14.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day14.txt; sourceTree = "<group>"; };
+		83DEFF6F25889D0900045213 /* Day15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day15Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				83DEFF012585F7DC00045213 /* Day13Tests.swift */,
 				83DEFF052587490300045213 /* Day14Tests.swift */,
 				83DEFF092587491000045213 /* day14.txt */,
+				83DEFF6F25889D0900045213 /* Day15Tests.swift */,
 			);
 			path = "aoc-2020Tests";
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 			files = (
 				837E0E02257B5E0D002B5E54 /* Day5Tests.swift in Sources */,
 				837E10EA25822A1A002B5E54 /* Day10Tests.swift in Sources */,
+				83DEFF7025889D0900045213 /* Day15Tests.swift in Sources */,
 				835EAD4B257668390058E2FA /* Day1Tests.swift in Sources */,
 				837E0E14257E0E53002B5E54 /* Day7Tests.swift in Sources */,
 				83DEFF022585F7DC00045213 /* Day13Tests.swift in Sources */,
