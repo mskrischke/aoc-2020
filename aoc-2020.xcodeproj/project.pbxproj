@@ -41,6 +41,8 @@
 		83DEFF062587490300045213 /* Day14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEFF052587490300045213 /* Day14Tests.swift */; };
 		83DEFF0A2587491000045213 /* day14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 83DEFF092587491000045213 /* day14.txt */; };
 		83DEFF7025889D0900045213 /* Day15Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEFF6F25889D0900045213 /* Day15Tests.swift */; };
+		83DEFF742589E66F00045213 /* Day16Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEFF732589E66F00045213 /* Day16Tests.swift */; };
+		83DEFF782589E69800045213 /* day16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 83DEFF772589E69800045213 /* day16.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,8 @@
 		83DEFF052587490300045213 /* Day14Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day14Tests.swift; sourceTree = "<group>"; };
 		83DEFF092587491000045213 /* day14.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day14.txt; sourceTree = "<group>"; };
 		83DEFF6F25889D0900045213 /* Day15Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day15Tests.swift; sourceTree = "<group>"; };
+		83DEFF732589E66F00045213 /* Day16Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day16Tests.swift; sourceTree = "<group>"; };
+		83DEFF772589E69800045213 /* day16.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day16.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +189,8 @@
 				83DEFF052587490300045213 /* Day14Tests.swift */,
 				83DEFF092587491000045213 /* day14.txt */,
 				83DEFF6F25889D0900045213 /* Day15Tests.swift */,
+				83DEFF732589E66F00045213 /* Day16Tests.swift */,
+				83DEFF772589E69800045213 /* day16.txt */,
 			);
 			path = "aoc-2020Tests";
 			sourceTree = "<group>";
@@ -285,6 +291,7 @@
 			files = (
 				837E0E18257E0E62002B5E54 /* day7.txt in Resources */,
 				837E0D7B257A1D70002B5E54 /* day4.txt in Resources */,
+				83DEFF782589E69800045213 /* day16.txt in Resources */,
 				835EAE982577D88F0058E2FA /* day2.txt in Resources */,
 				837E113C25836448002B5E54 /* day11.txt in Resources */,
 				83DEFF0A2587491000045213 /* day14.txt in Resources */,
@@ -322,6 +329,7 @@
 				837E0E14257E0E53002B5E54 /* Day7Tests.swift in Sources */,
 				83DEFF022585F7DC00045213 /* Day13Tests.swift in Sources */,
 				837E100D257F6025002B5E54 /* Day8Tests.swift in Sources */,
+				83DEFF742589E66F00045213 /* Day16Tests.swift in Sources */,
 				837E101E2580B767002B5E54 /* Day9Tests.swift in Sources */,
 				83DEFF062587490300045213 /* Day14Tests.swift in Sources */,
 				837E113825836439002B5E54 /* Day11Tests.swift in Sources */,
