@@ -28,16 +28,20 @@ class Day15Tests: XCTestCase {
     private func playMemory(startEntries: String, iterations: Int) -> Int {
         let starting = startEntries.split(separator: ",").map { Int($0)! }
         var memory = starting + Array(repeating: -1, count: iterations - starting.count)
-        var lastIndexOf = Dictionary(starting.dropLast().enumerated().map { ($0.element, $0.offset) }, uniquingKeysWith: { lhs, _ in lhs })
+        var lastIndexOf = Array(repeating: -1, count: iterations)
+        for entry in starting.dropLast().enumerated() {
+            lastIndexOf[entry.element] = entry.offset
+        }
         
         for index in starting.count..<memory.count {
             let previousNumber = memory[index - 1]
             
-            if let lastIndex = lastIndexOf[previousNumber] {
+            let lastIndex = lastIndexOf[previousNumber]
+            if lastIndex != -1 {
                 memory[index] = (index - 1) - lastIndex
             } else {
                 memory[index] = 0
-            }            
+            }
             lastIndexOf[previousNumber] = index - 1
         }
         
