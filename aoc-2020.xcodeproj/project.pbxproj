@@ -47,6 +47,8 @@
 		83DEFF80258B6E0200045213 /* day17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 83DEFF7F258B6E0200045213 /* day17.txt */; };
 		83DEFF84258C8E8900045213 /* Day18Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DEFF83258C8E8900045213 /* Day18Tests.swift */; };
 		83DEFF88258C8E9700045213 /* day18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 83DEFF87258C8E9700045213 /* day18.txt */; };
+		83FF238E258E56B40059F075 /* Day19Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FF238D258E56B40059F075 /* Day19Tests.swift */; };
+		83FF2392258E57350059F075 /* day19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 83FF2391258E57350059F075 /* day19.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +106,8 @@
 		83DEFF7F258B6E0200045213 /* day17.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day17.txt; sourceTree = "<group>"; };
 		83DEFF83258C8E8900045213 /* Day18Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day18Tests.swift; sourceTree = "<group>"; };
 		83DEFF87258C8E9700045213 /* day18.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day18.txt; sourceTree = "<group>"; };
+		83FF238D258E56B40059F075 /* Day19Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day19Tests.swift; sourceTree = "<group>"; };
+		83FF2391258E57350059F075 /* day19.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day19.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +207,8 @@
 				83DEFF7F258B6E0200045213 /* day17.txt */,
 				83DEFF83258C8E8900045213 /* Day18Tests.swift */,
 				83DEFF87258C8E9700045213 /* day18.txt */,
+				83FF238D258E56B40059F075 /* Day19Tests.swift */,
+				83FF2391258E57350059F075 /* day19.txt */,
 			);
 			path = "aoc-2020Tests";
 			sourceTree = "<group>";
@@ -313,6 +319,7 @@
 				837E1011257F603B002B5E54 /* day8.txt in Resources */,
 				835EAD50257668C30058E2FA /* day1.txt in Resources */,
 				837E0E0E257B6C86002B5E54 /* day6.txt in Resources */,
+				83FF2392258E57350059F075 /* day19.txt in Resources */,
 				837E10222580B775002B5E54 /* day9.txt in Resources */,
 				837E10EE25822A29002B5E54 /* day10.txt in Resources */,
 				83DEFF88258C8E9700045213 /* day18.txt in Resources */,
@@ -354,6 +361,7 @@
 				83DEFEFA2584A9FB00045213 /* Day12Tests.swift in Sources */,
 				837E0D77257A1D5F002B5E54 /* Day4Tests.swift in Sources */,
 				83DEFF7C258B6C5F00045213 /* Day17Tests.swift in Sources */,
+				83FF238E258E56B40059F075 /* Day19Tests.swift in Sources */,
 				837E0E0A257B6C75002B5E54 /* Day6Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
