@@ -33,6 +33,8 @@
 		837E113C25836448002B5E54 /* day11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 837E113B25836448002B5E54 /* day11.txt */; };
 		838A2F7425921F90009E8AEF /* Day22Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838A2F7325921F90009E8AEF /* Day22Tests.swift */; };
 		838A2F7825921F9F009E8AEF /* day22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 838A2F7725921F9F009E8AEF /* day22.txt */; };
+		838DEF84259336500099F99F /* Day23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838DEF83259336500099F99F /* Day23Tests.swift */; };
+		838DEF882593365D0099F99F /* day23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 838DEF872593365D0099F99F /* day23.txt */; };
 		83BBA52F257667CF00E11EC3 /* aoc_2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBA52E257667CF00E11EC3 /* aoc_2020App.swift */; };
 		83BBA531257667CF00E11EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBA530257667CF00E11EC3 /* ContentView.swift */; };
 		83BBA533257667D100E11EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BBA532257667D100E11EC3 /* Assets.xcassets */; };
@@ -94,6 +96,8 @@
 		837E113B25836448002B5E54 /* day11.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day11.txt; sourceTree = "<group>"; };
 		838A2F7325921F90009E8AEF /* Day22Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day22Tests.swift; sourceTree = "<group>"; };
 		838A2F7725921F9F009E8AEF /* day22.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day22.txt; sourceTree = "<group>"; };
+		838DEF83259336500099F99F /* Day23Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day23Tests.swift; sourceTree = "<group>"; };
+		838DEF872593365D0099F99F /* day23.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day23.txt; sourceTree = "<group>"; };
 		83BBA52B257667CF00E11EC3 /* aoc-2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aoc-2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BBA52E257667CF00E11EC3 /* aoc_2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc_2020App.swift; sourceTree = "<group>"; };
 		83BBA530257667CF00E11EC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -230,6 +234,8 @@
 				83DEFF912590897B00045213 /* day21.txt */,
 				838A2F7325921F90009E8AEF /* Day22Tests.swift */,
 				838A2F7725921F9F009E8AEF /* day22.txt */,
+				838DEF83259336500099F99F /* Day23Tests.swift */,
+				838DEF872593365D0099F99F /* day23.txt */,
 			);
 			path = "aoc-2020Tests";
 			sourceTree = "<group>";
@@ -334,6 +340,7 @@
 				83DEFF782589E69800045213 /* day16.txt in Resources */,
 				835EAE982577D88F0058E2FA /* day2.txt in Resources */,
 				83DEFF80258B6E0200045213 /* day17.txt in Resources */,
+				838DEF882593365D0099F99F /* day23.txt in Resources */,
 				837E113C25836448002B5E54 /* day11.txt in Resources */,
 				83DEFF0A2587491000045213 /* day14.txt in Resources */,
 				83FF239A258F3BBF0059F075 /* day20.txt in Resources */,
@@ -377,6 +384,7 @@
 				83DEFF84258C8E8900045213 /* Day18Tests.swift in Sources */,
 				837E0E14257E0E53002B5E54 /* Day7Tests.swift in Sources */,
 				83DEFF022585F7DC00045213 /* Day13Tests.swift in Sources */,
+				838DEF84259336500099F99F /* Day23Tests.swift in Sources */,
 				837E100D257F6025002B5E54 /* Day8Tests.swift in Sources */,
 				83DEFF742589E66F00045213 /* Day16Tests.swift in Sources */,
 				837E101E2580B767002B5E54 /* Day9Tests.swift in Sources */,
