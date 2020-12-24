@@ -26,7 +26,7 @@ class Day12Tests: XCTestCase {
             return Vec2(x: lhs.x + rhs.x, y: lhs.y + rhs.y)
         }
         
-        static public func +=(left: inout Vec2, right: Vec2) {
+        static func +=(left: inout Vec2, right: Vec2) {
             left = left + right
         }
         
