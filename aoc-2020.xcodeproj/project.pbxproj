@@ -37,6 +37,7 @@
 		838DEF882593365D0099F99F /* day23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 838DEF872593365D0099F99F /* day23.txt */; };
 		838DEF8C2594A14E0099F99F /* Day24Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838DEF8B2594A14E0099F99F /* Day24Tests.swift */; };
 		838DEF902594A1770099F99F /* day24.txt in Resources */ = {isa = PBXBuildFile; fileRef = 838DEF8F2594A1770099F99F /* day24.txt */; };
+		838DEF942596A6100099F99F /* Day25Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838DEF932596A6100099F99F /* Day25Tests.swift */; };
 		83BBA52F257667CF00E11EC3 /* aoc_2020App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBA52E257667CF00E11EC3 /* aoc_2020App.swift */; };
 		83BBA531257667CF00E11EC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BBA530257667CF00E11EC3 /* ContentView.swift */; };
 		83BBA533257667D100E11EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83BBA532257667D100E11EC3 /* Assets.xcassets */; };
@@ -102,6 +103,7 @@
 		838DEF872593365D0099F99F /* day23.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day23.txt; sourceTree = "<group>"; };
 		838DEF8B2594A14E0099F99F /* Day24Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day24Tests.swift; sourceTree = "<group>"; };
 		838DEF8F2594A1770099F99F /* day24.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = day24.txt; sourceTree = "<group>"; };
+		838DEF932596A6100099F99F /* Day25Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day25Tests.swift; sourceTree = "<group>"; };
 		83BBA52B257667CF00E11EC3 /* aoc-2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aoc-2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BBA52E257667CF00E11EC3 /* aoc_2020App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aoc_2020App.swift; sourceTree = "<group>"; };
 		83BBA530257667CF00E11EC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 				838DEF872593365D0099F99F /* day23.txt */,
 				838DEF8B2594A14E0099F99F /* Day24Tests.swift */,
 				838DEF8F2594A1770099F99F /* day24.txt */,
+				838DEF932596A6100099F99F /* Day25Tests.swift */,
 			);
 			path = "aoc-2020Tests";
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				837E113825836439002B5E54 /* Day11Tests.swift in Sources */,
 				83DEFF8E2590896B00045213 /* Day21Tests.swift in Sources */,
 				837E0B9825792015002B5E54 /* Day3Tests.swift in Sources */,
+				838DEF942596A6100099F99F /* Day25Tests.swift in Sources */,
 				835EAE932577D87F0058E2FA /* Day2Tests.swift in Sources */,
 				837E0DFE257A9354002B5E54 /* Utilities.swift in Sources */,
 				83DEFEFA2584A9FB00045213 /* Day12Tests.swift in Sources */,
